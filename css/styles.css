@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.container{
+	color: #262A2E;
+	font-size: 115%;
+}
+
+.container h1{
+	color: #262A2E;
+	font-size: 115%;
+}
+
+.header{
+	display: flex;
+	width: 100%;
+	margin-top: 5px;
+	align-items: center;
+	justify-content: flex-end;
+	border-bottom: 1px #DEE1E6;
+	box-shadow: 0 0 5px grey;
+}
+
+div.headerTitle{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.navTop{	
+	position: relative;
+	display: flex;
+	margin-right: 5px;
+}
+
+.navTop li{
+	margin-right: 5px;
+	padding: 5px; 
+ 	list-style-type: none;
+ }
+
+.navTop li > a{
+	text-decoration: none;
+	color: #262A2E;
+}
+
+a:not(#id-btn){
+	
+}
+
+.navTop a:hover{
+	text-decoration: underline;
+}
+
+.footer{	
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	background-color: color: #DCDCDC;
+}
+
+.contentConteiner{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 20% 0 20% 0;
+}
+
+.infoContainer{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+/* CSS for buy blocks*/
+.buyConteiner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buyBlock{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #DEE1E6;
+	border-radius: 10px;
+	height: auto;
+	width: 235px;
+	margin-right: 10px;
+}
+
+.buyBlockHeader{
+	display: flex;
+	height: 50px;
+	width: 235px;
+	align-items: center;
+	justify-content: center;
+	background-color: #DEDEDE;
+	border-bottom: 1px solid #DEE1E6;
+	border-radius: 10px 10px 0 0;
+}
+
+.buyBlockContent{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	align-items: center;
+}
+
+.buyBlockHeader h2{
+	margin: 0;
+}
+
+.buyBlockContent h3{
+	margin: 15px;
+}
+
+.buyBlockContent p{
+	margin: 0;
+}
+.buyBlockContent a {
+	color: white;
+}
+
+.buyBlockContent > .btns{	
+	padding: 10px 20px 10px 20px;	
+	width: 150px;
+	margin: 10px;
+	text-align: center;
+}
+
+/* CSS for Bttns */
+.btns{	
+	border-radius: 5px;
+	border: 1px solid #1da1f2;
+	color: white;
+	background-color: #1da1f2;
+	text-decoration: none;
+}
+
+.btns:hover{
+	background-color: white;
+	color: #1da1f2;
+}
