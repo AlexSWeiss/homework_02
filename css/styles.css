@@ -14,7 +14,8 @@ hr{
 }
 
 .container{
-	color: #262A2E;
+	
+	color: #26292E;
 	font-size: 15px;
 }
 
@@ -78,6 +79,7 @@ hr{
 .footer div > p{
 	margin: 0;
 	font-size: 15px;
+	color: #7B898E;
 }
 
 /*CSS for main content*/
