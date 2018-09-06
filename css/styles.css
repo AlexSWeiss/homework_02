@@ -1,14 +1,9 @@
 body{
-	margin: 0;
+	font-family: sans-serif;
 }
 
 a{
 	text-decoration: none;
-}
-
-.container{
-	color: #262A2E;
-	font-size: 15px;
 }
 
 hr{
@@ -16,6 +11,11 @@ hr{
 	background-color: #DEE1E6;
 	height: 2px;
 	margin: 1% 10% 1% 7%;
+}
+
+.container{
+	color: #262A2E;
+	font-size: 15px;
 }
 
  /*CSS for Header*/
@@ -29,9 +29,11 @@ hr{
 	padding: 10px;
 }
 
-div.headerTitle{
+.headerTitle{
 	display: block;
 	float: left;
+	font-size: 25px; 
+	font-weight: 650;
 }
 
 .navTop{	
@@ -60,7 +62,6 @@ div.headerTitle{
 	align-items: center;
 	justify-content: space-around;
 	margin-right: 10%;
-
 }
 
 .footer div{
@@ -70,10 +71,13 @@ div.headerTitle{
 .footer h3{
 	margin-top: 0;
 	margin-bottom: 10px; 
+	font-size: 20px; 
+	font-weight: 550;
 }
 
 .footer div > p{
 	margin: 0;
+	font-size: 15px;
 }
 
 /*CSS for main content*/
@@ -87,10 +91,19 @@ div.headerTitle{
 
 .infoContainer{
 	text-align: center;
-	font-size: 25px; 
+	font-size: 20px; 
 	margin: 0 20% 0 20%;
 }
 
+.infoContainer div{
+	margin: 20px;
+}
+
+.infoContainer h2{
+
+	font-size: 40px; 
+	font-weight: 600;
+}
 
 /* CSS for buy blocks*/
 .buyConteiner{
