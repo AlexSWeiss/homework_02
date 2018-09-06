@@ -10,7 +10,16 @@ a{
 	color: #262A2E;
 	font-size: 15px;
 }
+
+hr{
+	border: none;
+	background-color: #DEE1E6;
+	height: 2px;
+	margin: 1% 10% 1% 7%;
+}
+
  /*CSS for Header*/
+
 .header{
 	display: inline-block;
 	width: 100%;
@@ -26,7 +35,7 @@ div.headerTitle{
 }
 
 .navTop{	
-	float: right; 
+	text-align: right; 
 	margin-right: 5px;
 }
 
@@ -55,12 +64,11 @@ div.headerTitle{
 }
 
 .footer div{
-	display: flex;
-	flex-direction: column;
-	align-items: start;
+	margin: 20px;
 }
 
 .footer h3{
+	margin-top: 0;
 	margin-bottom: 10px; 
 }
 
